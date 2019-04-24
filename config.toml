@@ -1,0 +1,21 @@
+baseURL = "http://example.org/"
+languageCode = "de-de"
+title = "Webware Expert Produkt Tutorial"
+theme = "ananke"
+
+
+[Taxononies]
+    tag = "tags"
+    kurs = "kurse"
+
+    [[menu.main]]
+    identifier = "kurs"
+    name = "Login"
+    url = "/kurse"
+    weight = 3
+
+[[menu.main]]
+    name = "Registrieren"
+    url = "/tags"
+    weight = 2
+
